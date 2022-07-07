@@ -4,9 +4,328 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>My Portfolio</title>
 </head>
 <body>
-    <h2>Hello World</h2>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav_logo">Pochcharapon</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> About Me
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-bolt nav_icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">
+                            <i class="uil uil-graduation-cap nav_icon"></i></i> Education
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#works" class="nav_link">
+                            <i class="uil uil-book-open nav_icon"></i> Works
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#project" class="nav_link">
+                            <i class="uil uil-meeting-board nav_icon"></i> Project
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+            <div class="nav_btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i> 
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a href="https://www.facebook.com/profile.php?id=100007749335246" target="_blank" class="home_social-icon">
+                            <i class="uil uil-facebook"></i>
+                        </a>
+                        <a href="https://github.com/patty49032" target="_blank" class="home_social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                    <div class="home_img">
+                        <svg class="home_blob" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0" mask-type="alpha">
+                                <ellipse stroke-width="0" stroke="#000" ry="94" rx="94" id="svg_2" cy="94" cx="100" fill="#e05785"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                             <title>Layer 1</title>
+                             <ellipse stroke-width="0" stroke="#000" ry="94" rx="94" id="svg_2" cy="94" cx="100" fill="#e05785"/>
+                             <image class="home_blob-img" x="" y="2" xlink:href="assets/img/profile2.png"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home_data">
+                        <h1 class="home_title">Pochcharapon Konpian</h1>
+                        <h3 class="home_subtitle">Computer and Information Science KKUNKC</h3>
+                        <p class="home_description">นักศึกษาระดับปริญญาตรี ชั้นปีที่ 3 สาขาวิทยาการคอมพิวเตอร์และสารสนเทศ คณะสหวิทยาการ มหาวิทยาลัยขอนแก่น วิทยาเขตหนองคาย</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <span class="section_subtitle">My introduction</span>
+            <div class="about_container container grid">
+                <div class="about_data">
+                    <p class="about_description">เด็กหนุ่มผู้ที่มีความฝันอยากจะสร้างเกม แต่ความสามารถที่มีแค่พอเขียน Hello World\n</p>
+                    <p class="about_description">จังหวัดที่อยู่อาศัย: บ้านเลขที่ xx/x บ้านLorem ipsum dolor sit. ตำบลLorem, ipsum dolor. อำเภอLorem, ipsum dolor. จังหวัดสกลนคร</p>
+                    <p class="about_description">Email: pochcharpon@kkumail.com</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2><br>
+            <div class="skills_container container grid">
+                <div>
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-brackets-curly skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Programming</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Java</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_java"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Python</h3>
+                                    <span class="skills_number">65%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_python"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">JavaScript</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_js"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-server-network-alt skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Database</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Microsoft SQL Server</h3>
+                                    <span class="skills_number">55%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_mssql"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">My SQL</h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_mysql"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Mongo DB</h3>
+                                    <span class="skills_number">35%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_mongodb"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-globe skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Web Technology</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Node Js</h3>
+                                    <span class="skills_number">55%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_node"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">React</h3>
+                                    <span class="skills_number">15%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_react"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-chart-line skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Analysis and Design</h1>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Google Analytics</h3>
+                                    <span class="skills_number">15%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_ganaly"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Figma</h3>
+                                    <span class="skills_number">45%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_figma"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Adobe XD</h3>
+                                    <span class="skills_number">40%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_adobexd"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="education section" id="education">
+            <h2 class="section_title">Education</h2><br>
+            <div class="education_container container">
+                <div class="education_sections">
+                    <div class="education_content">
+                        <div class="education_data">
+                            <div>
+                                <h3 class="education_title">ระดับมัธยมศึกษาตอนต้น</h3>
+                                <span class="education_subtitle">โรงเรียนตากแดดสุธรรมประชาสรรค์</span>
+                                <div class="education_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2002- 2016
+                                </div>
+                            </div>
+                            <div>
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                        </div>
+                        <div class="education_data">
+                            <div></div> 
+                            <div>
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="education_title">ระดับมัธยมศึกษาตอนปลาย</h3>
+                                <span class="education_subtitle">โรงเรียนเดื่อศรีไพรวัลย์</span>
+                                <div class="education_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2017 - 2019
+                                </div>
+                            </div>
+                        </div>
+                        <div class="education_data">
+                            <div>
+                                <h3 class="education_title">ระดับปริญญาตรี</h3>
+                                <span class="education_subtitle">มหาวิทยาลัยขอนแก่น วิทยาเขตหนองคาย</span>
+                                <div class="education_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - ปัจจุบัน
+                                </div>
+                            </div>
+                            <div>
+                                <span class="education_rounder"></span>
+                                <!-- <span class="education_line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="works section" id="works">
+            <h2 class="section_title">Works</h2>
+            <span class="section_subtitle">Coming soon,,,</span>
+        </section>
+        <section class="project section" id="project">
+            <h2 class="section_title">Project</h2>
+            <span class="section_subtitle">Coming soon...</span>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container" id="grid">
+                <div>
+                    <h1 class="footer_title">Pochcharapon</h1>
+                    <span class="footer_subtitle">Computer and Information Science KKUNKC</span>
+                </div>
+                <br>
+                <div class="footer_socials">
+                    <a href="https://www.facebook.com/profile.php?id=100007749335246" target="_blank" class="footer_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                </div>
+                <p class="footer_copy">&#169; Patty. All right reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
