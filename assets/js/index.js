@@ -1,3 +1,4 @@
+//navmenu
 const nav_Menu = document.getElementById('nav-menu')
 const nav_Toggle = document.getElementById('nav-toggle')
 const nav_Close = document.getElementById('nav-close')
@@ -23,6 +24,8 @@ function linkact(){
 
 nav_link.forEach(i => i.addEventListener('click', linkact))
 
+
+//skillsmenu
 const skills_Content = document.getElementsByClassName('skills_content')
 const skills_Header = document.querySelectorAll('.skills_header')
 
@@ -40,6 +43,8 @@ function toggleSkills(){
 
 skills_Header.forEach((el) => { el.addEventListener('click', toggleSkills) })
 
+
+//showcolor_in_nav_menu
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -59,6 +64,8 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
+
+//showshadow_in_navmenu
 function scrollHeader(){
     const nav = document.getElementById('header')
 
@@ -66,6 +73,8 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
+
+//darktheme
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
